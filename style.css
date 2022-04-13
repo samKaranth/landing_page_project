@@ -1,0 +1,173 @@
+/* #1F2937 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+    padding: 1em 13em;
+}
+
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;    
+    gap: 1.5em;
+}
+
+.secondary, a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.welcome{
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right{
+    flex-shrink: 0;
+    width: 50%;
+}
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button{
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.welcome button{
+    border: none;
+}
+
+.image{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;        
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+main h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 3em 0 6em 0;
+}
+
+.card{
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.square{
+    border: 2px solid #3882f6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+    text-align: left;
+    font-weight: 100;
+    padding: 3em 6em 3em 6em;
+    height: 150px;
+}
+
+.quote p{
+    text-align: right;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 24px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100%;
+    /* height: 100px; */
+    padding: 3em;
+}
+
+strong{
+    font-size: 24px;
+    color: #FFF;
+}
+.banner button{
+    border: 2px solid #FFF;
+    font-size: 1em;
+    color: #FFF;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #FFF;
+    height: 100px;
+    padding: 2em;
+}
